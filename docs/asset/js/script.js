@@ -27,6 +27,7 @@ boton.onclick = evt => {
 };
 
 var btnCopy = document.getElementById("btnCopy");
+
 btnCopy.onclick = evt => { 
     let msj = document.getElementById('textMsj').value;
     document.getElementById('showMsj').innerText = msj;

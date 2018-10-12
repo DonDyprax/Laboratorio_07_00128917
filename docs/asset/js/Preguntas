@@ -1,0 +1,43 @@
+
+Usando 'document.getElementById'
+
+¿Qué es lo que contiene la variable container?
+La variable 'container' almacena el elemento HTML que tiene como identificador el id 'c1'.
+
+¿Qué visualiza en el navegador?
+El elemento con id 'c1' ahora tiene una cadena de texto que dice '¡Hola Mundo!'.
+
+¿Qué es lo que se muestra en pantalla?
+En lugar de mostrar el texto anterior ('¡Hola Mundo!') se muestra un textbox con placeholder 'Escriba su texto'.
+
+¿Cuál es la diferencia entre las propiedades innerHtml e innerText?
+La propiedad innerHTML devuelve o establece la sintaxis HTML del elemento seleccionado, mientras que innerText devuelve o establece el texto del elemento seleccionado.
+
+----------------------------------------------------------------------------
+
+Usando 'document.getElementsByClassName'
+
+¿Qué almacena containers?
+La variable 'containers' almacena una coleccion de todos los elementos que tienen aplicada la clase 'c2'.
+
+¿Qué se mostrará en pantalla?
+Se mostrara en pantalla que el color de fondo de todos los elementos de la coleccion almacenada en 'containers' cambiara al color #009999.
+
+¿Qué se mostrará en pantalla?
+Se mostrara en pantalla que cada elemento de la coleccion alamacenada en 'containers' ahora tendra un textbox con el placeholder 'Escriba su texto'.
+
+¿Cuál es la diferencia entre las propiedas innerText e innerHTML?
+La propiedad innerHTML devuelve o establece la sintaxis HTML del elemento seleccionado, mientras que innerText devuelve o establece el texto del elemento seleccionado.
+
+----------------------------------------------------------------------------
+
+Eventos
+
+¿Qué es lo que sucedera después de darle click al botón?
+Al darle click al boton, se tomara la cadena de texto ingresada en el textobx con el id 'textMsj' y se copiara al elemento con el id 'showMsj'.
+
+¿Cuál es la diferencia entre value e innerText?
+La diferencia es que value devuelve el valor actual del elemento seleccionado mientras que innerText es una propiedad que representa el contenido textual 'renderizado' de un nodo (segun MDN).
+
+
+
